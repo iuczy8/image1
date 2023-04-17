@@ -6,16 +6,12 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-/*  src: local('Manrope'), local('Manrope-Regular'),
-     url('assets/fonts/manrope-v3-cyrillic-regular.woff2') format('woff2');*/
 }
 @font-face {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: bold;
   font-display: swap;
-/*  src: local('Manrope Bold'), local('Manrope-Bold'),
-     url('assets/fonts/manrope-v3-cyrillic-700.woff2') format('woff2');*/
 }
 
 [class^="i__"], [class*=" i__"] { width: 1.5rem; height: 1.5rem; display: inline-block; vertical-align: top; }
