@@ -1,0 +1,5 @@
+.tb-ucyellow {
+    background-color: #fb0000!important;
+    background-image: linear-gradient(180deg, #ff0000 0%, rgb(202 34 34 / 27%) 100%)!important;
+    box-shadow: 0 0.25rem 0.5rem 0 rgb(216 19 19 / 44%);
+}
