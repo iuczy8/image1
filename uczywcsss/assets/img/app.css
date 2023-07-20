@@ -1,0 +1,247 @@
+/* 
+
+
+
+
+仿站扒站二改请保留链接 
+
+优创资源网 www.uczyw.com
+
+
+By:优哥 2023-7-20 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+	background: #e8e8e87a;
+	background-image: url(https://s1.ax1x.com/2023/07/20/pCHFWlV.jpg);
+	background-size: cover;
+	padding: 1rem 1rem 1rem;
+}
+
+.container {
+	text-align: center;
+	color: rgba(107, 114, 128, 1);
+	text-shadow: #00000042 5px 3px 3px;
+}
+
+.titleHead {
+	overflow: hidden;
+	padding: 10px 0 6px;
+	/*background-image: url(https://s2.loli.net/2023/07/20/yN3XcHY4pFstLZf.gif);*/
+	background-repeat: repeat;
+}
+
+.appIcon {
+	-webkit-border-radius: 20px;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 3rem;
+}
+
+.appTitle {
+	margin: 20px;
+	color: #666;
+	font-size: 22px;
+	margin-top: 8px;
+	text-shadow: none;
+	font-weight: normal;
+	font-family: NotoSansHans-Regular, AvenirNext-Regular, "proxima-nova", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.installButton {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid #e3e6eb;
+	text-decoration: none;
+	/* border-radius: 2px; */
+	margin-top: 4rem;
+	font-size: 18px;
+	padding: 8px 15px;
+	cursor: pointer;
+	font-weight: 400;
+	position: relative;
+	box-sizing: border-box;
+	background: #dde1e7d1;
+	border-radius: 10px;
+	box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+	color: rgba(107, 114, 128, 1);
+	text-shadow: #00000042 5px 3px 3px;
+	margin-bottom: 1rem;
+}
+
+#btnInstallToIOS1 {
+	margin-top: 10px;
+	background-color: #808080;
+}
+
+#btnInstallToIOS1:active {
+	background-color: #666;
+}
+
+.installButton:active {
+	background: #409272;
+}
+
+.installButton * {
+	vertical-align: middle;
+}
+
+.ucbody {
+	background-color: rgba(221, 225, 231, 0.88);
+	border-radius: 10px;
+	box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.topuc {
+	margin-top: 2rem;
+	padding: 0.7rem;
+}
+
+.iconApple {
+	background-image: url(https://s1.ax1x.com/2023/07/20/pCHPxgK.png);
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	font-size: inherit;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.iconApple::before {}
+
+.appUpdateDate {
+	text-align: center;
+	color: #555;
+	font-size: 12px;
+}
+
+span.label {
+	font-size: 11px;
+	font-weight: 400;
+	padding: 4px 7px;
+}
+
+.label-info {
+	background-color: #5bc0de;
+}
+
+.label-danger {
+	background-color: #d9534f;
+}
+
+.span12 {
+	margin-top: 20px;
+}
+
+#qrcode {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#qrcode img {
+	width: 100%;
+}
+
+.bottom {
+	margin-top: 2rem;
+}
