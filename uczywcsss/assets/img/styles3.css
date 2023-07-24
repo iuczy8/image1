@@ -1,0 +1,241 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(221, 225, 231, 0.88);
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.container:hover {
+    box-shadow: -2px -2px 5px #ffffff73, 3px 3px 7px rgba(94,104,121,0.288);
+    transform: translateY(-2px);
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.notice {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.notice-icon {
+    margin-right: 10px;
+}
+
+.product {
+    padding: 10px;
+}
+
+.product-select {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.product-select select {
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    padding: 10px;
+    border: none;
+    transition: box-shadow 0.3s;
+}
+
+.product-select select:focus {
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.product-input {
+    width: 100%;
+    /*padding: 10px;*/
+    border: none;
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    transition: box-shadow 0.3s;
+}
+
+.product-input:focus {
+    outline: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.product-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-label {
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.product-buttons button {
+    border: none;
+    background-color: #dde1e7;
+    color: #333333;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-right: 10px;
+    box-shadow: -2px -2px 5px #ffffff73, 3px 3px 7px rgba(94,104,121,0.288);
+}
+
+.product-buttons button:hover {
+    background-color: #dde1e7;
+    box-shadow: -1px -1px 2px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+}
+
+.product-buttons button:last-child {
+    margin-right: 0;
+}
+
+.details {
+    background-color: rgba(221, 225, 231, 0.88);
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.details:hover {
+    box-shadow: -2px -2px 5px #ffffff73, 3px 3px 7px rgba(94,104,121,0.288);
+    transform: translateY(-2px);
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    margin-top: 10px;
+}
+
+.dark-mode-icon::before {
+    content: "😦";
+}
+
+.dark-mode .dark-mode-icon::before {
+    content: "😀";
+}
+
+.dark-mode .container {
+    background-color: #222222;
+    box-shadow: -3px -3px 7px #00000073, 2px 2px 5px rgba(0,0,0,0.288);
+    color: #ffffff;
+}
+
+.dark-mode .container:hover {
+    box-shadow: -2px -2px 5px #00000073, 3px 3px 7px rgba(0,0,0,0.288);
+    transform: translateY(-2px);
+}
+
+.dark-mode .menu a {
+    color: #ffffff;
+}
+
+.dark-mode .notice {
+    background-color: rgba(34, 34, 34, 0.88);
+    color: #ffffff;
+    box-shadow: -3px -3px 7px #00000073, 2px 2px 5px rgba(0,0,0,0.288);
+}
+
+.dark-mode .details {
+    background-color: rgba(34, 34, 34, 0.88);
+    color: #ffffff;
+    box-shadow: -3px -3px 7px #00000073, 2px 2px 5px rgba(0,0,0,0.288);
+}
+
+.dark-mode .dark-mode-input {
+    background: #333333;
+    color: #ffffff;
+}
+
+.dark-mode .dark-mode-select {
+    background: #333333;
+    color: #ffffff;
+}
+
+.dark-mode-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: -2px -2px 5px #ffffff73, 3px 3px 7px rgba(94,104,121,0.288);
+}
+
+.dark-mode .dark-mode-button {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.ugbj1 {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    transition: box-shadow 0.3s;
+}
+.ugbj {
+    width: 100%;
+    border: none;
+    background: #dde1e7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94,104,121,0.288);
+    transition: box-shadow 0.3s;
+}
+.inputuc {
+    border: none;
+    background: #dde1e7;
+    border-radius: 10px;
+}
