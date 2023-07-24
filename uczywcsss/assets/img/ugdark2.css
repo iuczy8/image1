@@ -1,0 +1,34 @@
+.dark-mode .ugbj1 {
+    background: #222222 !important;
+    box-shadow: -3px -3px 7px #5a535373, 2px 2px 5px rgb(85 95 111 / 29%) !important;
+}
+.dark-mode .layui-input {
+    background: #222222 !important;
+}
+.dark-mode .layui-btn {
+    background: #222222 !important;
+    box-shadow: -3px -3px 7px #5a535373, 2px 2px 5px rgb(85 95 111 / 29%) !important;
+}
+
+body.dark-mode {
+  background: #222222 !important;
+}
+.dark-mode .a {
+    color: #ffffff !important;
+}
+.dark-mode .product-buttons button {
+    color: #ffffff !important;
+}
+
+.dark-mode .layui-btn.disabled, .layui-btn[disabled], fieldset[disabled] .layui-btn {
+    border: 0px solid #ffffff !important;
+}
+
+.dark-mode .layui-form-select dl {
+    background: #222222 !important;
+    box-shadow: -3px -3px 7px #5a535373, 2px 2px 5px rgb(85 95 111 / 29%) !important;
+}
+.dark-mode .floating-icon {
+    background: #222222 !important;
+    box-shadow: -3px -3px 7px #5a535373, 2px 2px 5px rgb(85 95 111 / 29%) !important;
+}
